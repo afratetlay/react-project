@@ -1,23 +1,14 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+// import Header from "./Header";
+import Avenger from "./Avenger";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <h1>Hello Everyone</h1>
+      <Avenger name="Ironman" age="34"></Avenger>
+      <Avenger name="Thor" age="1500"></Avenger>
+      <Avenger name="Captain America" age="105"></Avenger>
     </div>
   );
 }

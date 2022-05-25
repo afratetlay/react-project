@@ -5,7 +5,7 @@ import Avenger from "./Avenger";
 function App() {
   return (
     <div className="App">
-      <h1>Hello Everyone</h1>
+      <h1 className="title">Avengers List</h1>
       <Avenger name="Ironman" age="34"></Avenger>
       <Avenger name="Thor" age="1500"></Avenger>
       <Avenger name="Captain America" age="105"></Avenger>

@@ -1,7 +1,7 @@
 function Avenger(props) {
   return (
     // the below is not HTML it is JSX (JavaScript XML)
-    <div>
+    <div className="card">
       <h1>{props.name}</h1>
       <h3>{props.age}</h3>
     </div>
